@@ -68,5 +68,5 @@ _this linkItem "TFAR_anprc152";
 _this linkItem "ItemcTab";
 
 comment "Set identity";
-[_this,"WhiteHead_20","ace_novoice"] call BIS_fnc_setIdentity;
+[_this,"ace_novoice"] call BIS_fnc_setIdentity;
 [_this,"tfc_insignia_medicalTechnician"] call BIS_fnc_setUnitInsignia;
