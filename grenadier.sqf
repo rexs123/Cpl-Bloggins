@@ -41,6 +41,7 @@ for "_i" from 1 to 2 do {_this addItemToVest "1Rnd_SmokeBlue_Grenade_shell";};
 for "_i" from 1 to 2 do {_this addItemToVest "1Rnd_SmokeGreen_Grenade_shell";};
 for "_i" from 1 to 7 do {_this addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag";};
 _this addItemToBackpack "ACE_bodyBag";
+_this addItemToBackpack "ACE_MapTools";
 _this addItemToBackpack "SmokeShellRed";
 _this addItemToBackpack "SmokeShellGreen";
 _this addItemToBackpack "rhsusf_ANPVS_14";

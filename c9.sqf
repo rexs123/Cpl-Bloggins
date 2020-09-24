@@ -35,6 +35,7 @@ for "_i" from 1 to 2 do {_this addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 2 do {_this addItemToVest "rhs_mag_m67";};
 for "_i" from 1 to 2 do {_this addItemToVest "rhsusf_200rnd_556x45_mixed_box";};
 _this addItemToBackpack "ACE_bodyBag";
+_this addItemToBackpack "ACE_MapTools";
 _this addItemToBackpack "SmokeShellRed";
 _this addItemToBackpack "rhsusf_ANPVS_14";
 _this addItemToBackpack "SmokeShellGreen";

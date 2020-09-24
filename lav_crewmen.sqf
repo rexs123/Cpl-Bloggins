@@ -34,6 +34,7 @@ _this addItemToVest "rhsusf_ANPVS_14";
 for "_i" from 1 to 2 do {_this addItemToVest "rhs_mag_m67";};
 for "_i" from 1 to 8 do {_this addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag";};
 _this addItemToBackpack "ACE_bodyBag";
+_this addItemToBackpack "ACE_MapTools";
 _this addItemToBackpack "TFC_CH_Beret_rhfc";
 _this addItemToBackpack "ACE_EntrenchingTool";
 _this addItemToBackpack "ACE_SpraypaintGreen";

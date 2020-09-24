@@ -37,6 +37,7 @@ for "_i" from 1 to 2 do {_this addItemToVest "rhs_mag_m67";};
 for "_i" from 1 to 4 do {_this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull";};
 for "_i" from 1 to 3 do {_this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_EPM_Pull_Tracer_Red";};
 _this addItemToBackpack "ACE_bodyBag";
+_this addItemToBackpack "ACE_MapTools";
 _this addItemToBackpack "TFC_CH_Beret_rhfc";
 _this addItemToBackpack "ACE_EntrenchingTool";
 _this addItemToBackpack "ACE_SpraypaintGreen";
