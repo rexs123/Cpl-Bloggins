@@ -9,8 +9,10 @@ this addAction["<t color='#ffffff'>Rifleman w/ M72</t>", {player execVM "riflema
 this addAction["<t color='#ffffff'>Grenadier</t>", {player execVM "grenadier.sqf";}]; 
 this addAction["<t color='#ffffff'>C9</t>", {player execVM "c9.sqf";}]; 
 this addAction["<t color='#ffffff'>C6</t>", {player execVM "c6.sqf";}]; 
+
 this addAction["<t color='#ffffff'>Lav Commander</t>", {player execVM "lav_cmdr.sqf";}]; 
 this addAction["<t color='#ffffff'>Lav Crewmen</t>", {player execVM "lav_crewmen.sqf";}]; 
+
 this addAction["<t color='#ffffff'>MedTech IC</t>", {player execVM "medtech_ic.sqf";}]; 
 this addAction["<t color='#ffffff'>MedTech</t>", {player execVM "medtech.sqf";}]; 
 ```
