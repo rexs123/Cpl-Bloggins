@@ -7,7 +7,9 @@ this addAction["<t color='#ffffff'>Platoon FOO/RTO/</t>", {player execVM "Pl_JTA
 
 this addAction["<t color='#ffffff'>IC</t>", {player execVM "ic.sqf";}]; 
 this addAction["<t color='#ffffff'>2IC</t>", {player execVM "2ic.sqf";}]; 
-this addAction["<t color='#ffffff'>Rifleman</t>", {player execVM "rifleman.sqf";}]; 
+this addAction["<t color='#ffffff'>Rifleman</t>", {player execVM "rifleman.sqf";}];
+this addAction["<t color='#ffffff'>Rifleman M72</t>", {player execVM "rifleman_m72.sqf";}]; 
+this addAction["<t color='#ffffff'>TCCC</t>", {player execVM "rifleman_tccc.sqf";}]; 
 this addAction["<t color='#ffffff'>Grenadier</t>", {player execVM "grenadier.sqf";}]; 
 this addAction["<t color='#ffffff'>C9</t>", {player execVM "c9.sqf";}]; 
 this addAction["<t color='#ffffff'>C6</t>", {player execVM "c6.sqf";}]; 
