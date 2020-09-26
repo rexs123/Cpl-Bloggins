@@ -2,6 +2,9 @@ Cpl Boggins
 
 Add this to a AI that is god mode
 ```
+this addAction["<t color='#ffffff'>IC</t>", {player execVM "Pl_IC.sqf";}]; 
+this addAction["<t color='#ffffff'>IC</t>", {player execVM "Pl_JTAC.sqf";}]; 
+
 this addAction["<t color='#ffffff'>IC</t>", {player execVM "ic.sqf";}]; 
 this addAction["<t color='#ffffff'>2IC</t>", {player execVM "2ic.sqf";}]; 
 this addAction["<t color='#ffffff'>Rifleman</t>", {player execVM "rifleman.sqf";}]; 
@@ -14,4 +17,7 @@ this addAction["<t color='#ffffff'>Lav Crewmen</t>", {player execVM "lav_crewmen
 
 this addAction["<t color='#ffffff'>MedTech IC</t>", {player execVM "medtech_ic.sqf";}]; 
 this addAction["<t color='#ffffff'>MedTech</t>", {player execVM "medtech.sqf";}]; 
+
+this addAction["<t color='#ffffff'>Jet Pilot</t>", {player execVM "jet_pilot.sqf";}]; 
+this addAction["<t color='#ffffff'>Helicopter Pilot</t>", {player execVM "helo_pilot.sqf";}]; 
 ```
