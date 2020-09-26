@@ -16,8 +16,8 @@ _this addWeapon "tfc_w_bhp";
 _this addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
-_this forceAddUniform "TFC_CU_CombatUniform_otw_cadpat_TW";
-_this addVest "TFC_CV_Tacvest_tw";
+_this forceAddUniform selectRandom["TFC_CU_CombatUniform_otw_cadpat_TW","TFC_CU_CombatUniform_tunic_cadpat_TW"];
+_this addVest selectRandom["TFC_CV_SORD_Ballistic_03_TW","TFC_CV_SORD_Ballistic_02_TW","TFC_CV_Tacvest_TW","rhsusf_mbav_rifleman"];
 _this addBackpack "TFC_CB_Smallpack_TW";
 
 comment "Add binoculars";
@@ -46,7 +46,7 @@ for "_i" from 1 to 2 do {_this addItemToBackpack "ACE_Canteen";};
 for "_i" from 1 to 5 do {_this addItemToBackpack "ACE_CableTie";};
 for "_i" from 1 to 4 do {_this addItemToBackpack "rhs_mag_an_m8hc";};
 for "_i" from 1 to 2 do {_this addItemToBackpack "ACE_Chemlight_HiGreen";};
-_this addHeadgear "TFC_CH_CG634_CADPAT_TW";
+_this addHeadgear selectRandom["TFC_CH_CG634_CADPAT_GG_TW","TFC_CH_CG634_CADPAT_SCRIMNET_SCRIM_01_TW","TFC_CH_CG634_CADPAT_SCRIMNET_SCRIM_02_TW","TFC_CH_CG634_CADPAT_SCRIMNET_SCRIM_03_TW","TFC_CH_CG634_CADPAT_TW"];
 _this addGoggles "rhs_googles_clear";
 
 comment "Add items";
