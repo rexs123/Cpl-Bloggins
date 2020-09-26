@@ -25,6 +25,7 @@ comment "Add binoculars";
 _this addWeapon "Rangefinder";
 
 comment "Add items to containers";
+_this addItemToUniform "ACE_Flashlight_XL50";
 for "_i" from 1 to 5 do {_this addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 2 do {_this addItemToUniform "ACE_elasticBandage";};
 for "_i" from 1 to 2 do {_this addItemToUniform "ACE_packingBandage";};
@@ -32,7 +33,6 @@ for "_i" from 1 to 2 do {_this addItemToUniform "ACE_EarPlugs";};
 for "_i" from 1 to 3 do {_this addItemToUniform "ACE_tourniquet";};
 for "_i" from 1 to 2 do {_this addItemToUniform "ACE_splint";};
 _this addItemToVest "rhsusf_ANPVS_14";
-_this addItemToUniform "ACE_Flashlight_XL50";
 for "_i" from 1 to 2 do {_this addItemToVest "rhs_mag_m67";};
 for "_i" from 1 to 5 do {_this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull";};
 for "_i" from 1 to 3 do {_this addItemToVest "rhs_mag_30Rnd_556x45_M855A1_EPM_Pull_Tracer_Red";};
