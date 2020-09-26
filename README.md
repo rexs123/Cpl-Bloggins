@@ -2,8 +2,8 @@ Cpl Boggins
 
 Add this to a AI that is god mode
 ```
-this addAction["<t color='#ffffff'>IC</t>", {player execVM "Pl_IC.sqf";}]; 
-this addAction["<t color='#ffffff'>IC</t>", {player execVM "Pl_JTAC.sqf";}]; 
+this addAction["<t color='#ffffff'>Platoon IC</t>", {player execVM "Pl_IC.sqf";}]; 
+this addAction["<t color='#ffffff'>Platoon FOO/RTO/</t>", {player execVM "Pl_JTAC.sqf";}]; 
 
 this addAction["<t color='#ffffff'>IC</t>", {player execVM "ic.sqf";}]; 
 this addAction["<t color='#ffffff'>2IC</t>", {player execVM "2ic.sqf";}]; 
